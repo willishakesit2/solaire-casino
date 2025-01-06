@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <title>Solaire Resort & Casino</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Solaire Resort & Casino</title>
+        <link rel="apple-touch-icon" href="images/favicon/solaire-logo.png">
+        <link rel="icon" type="image/png" href="images/favicon/solaire-logo.png">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery.vticker.min.js"></script>
+        <script type="text/javascript" src="js/jquery.number.min.js"></script>
+        <script type="text/javascript" src="js/layout.js"></script>
+    </head>
+
+    <body>
+        <div class="overlay" style="display: none;"></div>
+		<div class="sidenav">
+			<ul class="mobilemenu">
+			<li> <a href="deposit.html" class="mobilemenu-item deposit-link"><i class="fa-solid fa-piggy-bank"></i> 입금신청</a> </li>
+			<li> <a href="withdraw.html" class="mobilemenu-item withdraw-link"><i class="fa-solid fa-vault"></i> 출금신청</a> </li>
+			<li> <a href="event.html" class="mobilemenu-item event-link"><i class="fa-solid fa-martini-glass-citrus"></i> 이벤트</a> </li>
+			<li> <a href="notice.html" class="mobilemenu-item notice-link"><i class="fa-solid fa-bell"></i> 공지사항</a> </li>
+			<li> <a href="customerservice.html" class="mobilemenu-item faq-link"><i class="fa-solid fa-comment-dots"></i> 고객센터</a> </li>
+			</ul>
+		</div>
+        <div class="wrapper affix">
+            <section class="banner-section w-ba">
+                <img class="banner-bg" src="images/bg/banner-bg.jpg">
+                <div class="container h-100 dflex-ac-jc">
+                    <div class="center w-100">
+                        <div class="banner-carousel carousel dflex-ac-jc align-content-center w-ba" data-ride="carousel" data-pause="false" data-interval="6000">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="text-panel w-ba">
+                                        <h1 class="mb-md-1 mb-0"><span class="font-bold">첫충</span>10%/<span class="font-bold">매충</span> 5% </h1>
+                                        <h2 class="mb-md-1 mb-0 font-bold">최대 100만원 지급</h2>
+                                        <h2 class="mb-md-1 mb-0 font-bold">보너스무제한지급</h2>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="text-panel w-ba">
+                                        <h1 class="mb-md-1 mb-0"><span class="font-bold">페이백</span>5% ~ 10%</h1>
+                                        <h2 class="mb-md-1 mb-0 font-bold">최대 100만원 까지</h2>
+                                        <h2 class="mb-md-1 mb-0 font-bold">고객센터 문의</h2>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="text-panel w-ba">
+                                        <h1 class="mb-md-1 mb-0">신규가입 이벤트</h1>
+                                        <h2 class="mb-md-1 mb-0 font-bold">5+3,15+5,50+10,100+20,300+50 롤링300%</h2>
+                                        <h2 class="mb-md-1 mb-0 font-bold">롤링포인트 0.2~0.75%</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <ol class="carousel-indicators dflex-ac-jc">
+                                <li data-target=".banner-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target=".banner-carousel" data-slide-to="1" class=""></li>
+                                <li data-target=".banner-carousel" data-slide-to="2" class=""></li>
+                            </ol>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <header class="header-section w-ba topbar">
+                <div class="container dflex-ac-jc h-100 topbar-container">
+                    <div class="solaire-logo-wrapper">
+                        <div class="solaire-logo">
+                            <a href="index.html">
+                                <img class="new-logo" src="images/newlogo/solaire-logo.png">
+                            </a>
+                        </div>
+                    </div>
+                    <ul class="bs-ul main-menu sidebar-left">
+                        <li> <a href="deposit.html" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="deposit-link dflex-ac-jc w-ba"><i class="fa-solid fa-piggy-bank"></i> 입금신청</a> </li>
+                        <li> <a href="withdraw.html" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="withdraw-link dflex-ac-jc w-ba"><i class="fa-solid fa-vault"></i> 출금신청</a> </li>
+                        <li> <a href="event.html" class="event-link dflex-ac-jc w-ba"><i class="fa-solid fa-martini-glass-citrus"></i> 이벤트</a> </li>
+                        <li> <a href="notice.html" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="notice-link dflex-ac-jc w-ba"><i class="fa-solid fa-bell"></i> 공지사항</a> </li>
+                        <li> <a href="customerservice.html" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="faq-link dflex-ac-jc w-ba"><i class="fa-solid fa-comment-dots"></i> 고객센터</a> </li>
+                        <!-- <li> <a href="javascript:void(0);" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="deposit-link dflex-ac-jc w-ba"><i class="fa-solid fa-piggy-bank"></i> 입금신청</a> </li>
+						<li> <a href="javascript:void(0);" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="withdraw-link dflex-ac-jc w-ba"><i class="fa-solid fa-vault"></i> 출금신청</a> </li>
+						<li> <a href="javascript:void(0);" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="event-link dflex-ac-jc w-ba"><i class="fa-solid fa-martini-glass-citrus"></i> 이벤트</a> </li>
+						<li> <a href="javascript:void(0);" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="notice-link dflex-ac-jc w-ba"><i class="fa-solid fa-bell"></i> 공지사항</a> </li>
+						<li> <a href="javascript:void(0);" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="faq-link dflex-ac-jc w-ba"><i class="fa-solid fa-comment-dots"></i> 고객센터</a> </li> -->
+                    </ul>
+                    <div class="menu-toggle">
+                        <i class="fa-solid fa-bars showSideNav"></i>
+                        <i class="fas fa-user-tie showbefore-login"></i>
+                    </div>
+                    <div class="bal-container ml-auto">
+                        <form id="loginFormMobile" method="post">
+                            <div class="before-login active">
+                                <div class="desktop">
+                                    <div class="dflex-ac-jc">
+                                        <div class="input-panel dflex-ac-jc">
+                                            <div class="icon-panel dflex-ac-jc"> <i class="fas fa-user-tie" aria-hidden="true"></i> </div>
+                                            <input type="text" placeholder="아이디" name="mb_login_id" autocomplete="off">
+                                        </div>
+                                        <div class="input-panel dflex-ac-jc">
+                                            <div class="icon-panel dflex-ac-jc"> <i class="fas fa-unlock-alt" aria-hidden="true"></i> </div>
+                                            <input type="password" placeholder="비밀번호" name="password" autocomplete="off">
+                                        </div>
+                                        <button type="submit" class="btn-yellow login-btn">로그인</button>
+                                        <button type="button" class="btn-red join-link">회원가입</button>
+                                    </div>
+                                </div>
+                                <div class="mobile">
+                                    <div class="dflex-ac-jc">
+                                        <button type="button" class="btn-yellow login-link"><i class="fa-solid fa-right-to-bracket mr-2"></i> 로그인</button>
+                                        <button type="button" class="btn-red join-link"><i class="fa-solid fa-user-plus mr-2"></i> 회원가입</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </header>
+            <main class="page-content w-ba">
+                <section class="toggle-section">
+                    <div class="container dflex-ac-jc">
+                        <div class="page-header">
+                            <div class="bg"></div>
+                            <div class="page-text">
+                                <span>공지사항</span>
+                                <span>공지사항</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="board-list">
+                    <div class="container">
+                        <div class="board-table topbottom-border">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="item-head">글번호</th>
+                                        <th class="title-head">제목</th>
+                                        <th class="writer-head">작성자</th>
+                                        <th class="date-head">작성시간</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="item">666</td>
+                                        <td class="title">
+                                            <a href="samplenotice.html"> K-Miracle Notice 1 </a>
+                                        </td>
+                                        <td class="writer">
+                                            <img class="logo-sm" src="images/newlogo/solaire-logo-small.png" alt="">
+                                        </td>
+                                        <td class="date">2022-04-20</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="item">666</td>
+                                        <td class="title">
+                                            <a href="samplenotice.html"> K-Miracle Notice 2 </a>
+                                        </td>
+                                        <td class="writer">
+                                            <img class="logo-sm" src="images/newlogo/solaire-logo-small.png" alt="">
+                                        </td>
+                                        <td class="date">2022-04-20</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="item">666</td>
+                                        <td class="title">
+                                            <a href="samplenotice.html"> K-Miracle Notice 3 </a>
+                                        </td>
+                                        <td class="writer">
+                                            <img class="logo-sm" src="images/newlogo/solaire-logo-small.png" alt="">
+                                        </td>
+                                        <td class="date">2022-04-20</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="item">666</td>
+                                        <td class="title">
+                                            <a href="samplenotice.html"> K-Miracle Notice 4 </a>
+                                        </td>
+                                        <td class="writer">
+                                            <img class="logo-sm" src="images/newlogo/solaire-logo-small.png" alt="">
+                                        </td>
+                                        <td class="date">2022-04-20</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="pagination-new">
+                            <div class="prev">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="7.956" height="12.884" viewBox="0 0 7.956 12.884">
+                                        <defs>
+                                            <linearGradient id="linear-gradient" x1="-0.089" y1="0.466" x2="1.042" y2="0.509" gradientUnits="objectBoundingBox">
+                                                <stop offset="0.008" stop-color="#c08d3e" />
+                                                <stop offset="0.341" stop-color="#f2d267" />
+                                                <stop offset="0.448" stop-color="#fbf7b4" />
+                                                <stop offset="0.557" stop-color="#e0d496" />
+                                                <stop offset="0.703" stop-color="#cca452" />
+                                                <stop offset="0.869" stop-color="#8a5e28" />
+                                                <stop offset="1" stop-color="#70461c" />
+                                            </linearGradient>
+                                        </defs>
+                                        <path id="prev-arrow" d="M58.956,45.014,57.442,43.5,51,49.942l6.442,6.442,1.514-1.514-4.917-4.928Z" transform="translate(-51 -43.5)" fill="#e06c31" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <ul class="pages">
+                                <li class="page-number active"><a href="#"><span>1</span></a></li>
+                                <li class="page-number"><a href="#"><span>2</span></a></li>
+                                <li class="page-number"><a href="#"><span>3</span></a></li>
+                            </ul>
+                            <div class="next">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="7.956" height="12.884" viewBox="0 0 7.956 12.884">
+                                        <defs>
+                                            <linearGradient id="linear-gradient" x1="-0.089" y1="0.466" x2="1.042" y2="0.509" gradientUnits="objectBoundingBox">
+                                                <stop offset="0.008" stop-color="#c08d3e" />
+                                                <stop offset="0.341" stop-color="#f2d267" />
+                                                <stop offset="0.448" stop-color="#fbf7b4" />
+                                                <stop offset="0.557" stop-color="#e0d496" />
+                                                <stop offset="0.703" stop-color="#cca452" />
+                                                <stop offset="0.869" stop-color="#8a5e28" />
+                                                <stop offset="1" stop-color="#70461c" />
+                                            </linearGradient>
+                                        </defs>
+                                        <path id="next-arrow" d="M73,54.87l1.514,1.514,6.442-6.442L74.514,43.5,73,45.014l4.917,4.928Z" transform="translate(-73 -43.5)" fill="#e06c31" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer-section w-ba">
+                <div class="container">
+                    <div class="row">
+                        <div class="provider-logo">
+                            <img src="images/provider/logo/ag.png">
+                            <img src="images/provider/logo/microgaming.png">
+                            <img src="images/provider/logo/evolution.png">
+                            <img src="images/provider/logo/pragmatic.png">
+                            <img src="images/provider/logo/oriental.png">
+                            <img class="no-shadow" src="images/provider/logo/sexygaming.png">
+                            <img src="images/provider/logo/dreamgaming.png">
+                            <img src="images/provider/logo/cq9.png">
+                            <img src="images/provider/logo/bng.png">
+                            <img src="images/provider/logo/habanero.png">
+                            <img src="images/provider/logo/netent.png">
+                            <img src="images/provider/logo/redtiger.png">
+                            <img src="images/provider/logo/evoplay.png">
+                            <img src="images/provider/logo/gameplay.png">
+                            <img src="images/provider/logo/playngo.png">
+                            <img src="images/provider/logo/genesis.png">
+                        </div>
+                    </div>
+                    <div class="copyright w-ba">
+                        <p class="mb-0 mt-3">ⓒ COPYRIGHT SOLAIRE RESORT & CASINO 2022 ALL RIGHTS RESERVED.</p>
+                    </div>
+                </div>
+            </footer>
+            <div class="sn-overlay"></div>
+            <button class="scroll-top w-ba"><i class="fa-solid fa-arrow-up"></i></button>
+        </div>
+    </body>
+
+</html>
